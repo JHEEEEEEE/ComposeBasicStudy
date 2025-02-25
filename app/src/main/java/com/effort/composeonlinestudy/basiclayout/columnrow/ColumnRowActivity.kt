@@ -132,7 +132,7 @@ fun NameCardTwo() {
 
             Text(
                 text = "xxxx@gmail.com",
-                fontSize = 10.sp,
+                fontSize = 15.sp,
                 modifier = Modifier.padding(10.dp),
                 color = Color.Blue
             )
@@ -151,7 +151,7 @@ fun NameCardTwo() {
 
             Text(
                 text = "010-XXXX-XXXX",
-                fontSize = 10.sp,
+                fontSize = 15.sp,
                 modifier = Modifier.padding(10.dp),
                 color = Color.Red
             )

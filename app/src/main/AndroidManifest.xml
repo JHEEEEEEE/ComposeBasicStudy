@@ -15,7 +15,7 @@
         android:theme="@style/Theme.ComposeOnlineStudy"
         tools:targetApi="31">
         <activity
-            android:name=".basiclayout.columnrow.ColumnRowActivity"
+            android:name=".basiclayout.surface.SurfaceActivity"
             android:exported="true"
             android:theme="@style/Theme.ComposeOnlineStudy">
             <intent-filter>
