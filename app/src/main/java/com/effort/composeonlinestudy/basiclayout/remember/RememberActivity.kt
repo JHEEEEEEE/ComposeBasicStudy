@@ -1,4 +1,4 @@
-package com.effort.composeonlinestudy.basicLayout.remember
+package com.effort.composeonlinestudy.basiclayout.remember
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

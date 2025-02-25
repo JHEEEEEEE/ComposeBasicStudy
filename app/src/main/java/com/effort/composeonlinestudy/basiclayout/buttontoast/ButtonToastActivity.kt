@@ -1,4 +1,4 @@
-package com.effort.composeonlinestudy.basicLayout.buttonToast
+package com.effort.composeonlinestudy.basiclayout.buttontoast
 
 import android.os.Bundle
 import android.util.Log

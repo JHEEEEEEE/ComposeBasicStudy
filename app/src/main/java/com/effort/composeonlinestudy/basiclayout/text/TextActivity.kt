@@ -1,4 +1,4 @@
-package com.effort.composeonlinestudy.basicLayout.text
+package com.effort.composeonlinestudy.basiclayout.text
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
