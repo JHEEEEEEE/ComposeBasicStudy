@@ -1,4 +1,4 @@
-package com.effort.composeonlinestudy.navigation
+package com.effort.composeonlinestudy.basiclayout.navigation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

@@ -1,4 +1,4 @@
-package com.effort.composeonlinestudy.retrofit
+package com.effort.composeonlinestudy.basiclayout.retrofit
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
