@@ -15,7 +15,7 @@
         android:theme="@style/Theme.ComposeOnlineStudy"
         tools:targetApi="31">
         <activity
-            android:name=".practice.dice.DiceActivity"
+            android:name=".practice.graph.GraphActivity"
             android:exported="true"
             android:theme="@style/Theme.ComposeOnlineStudy">
             <intent-filter>
