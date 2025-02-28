@@ -70,4 +70,8 @@ dependencies {
     // retrofit
     implementation(libs.retrofit)
     implementation(libs.retrofit.coverter.gson)
+
+    // pager
+    implementation(libs.pager)
+    implementation(libs.pager.indicators)
 }

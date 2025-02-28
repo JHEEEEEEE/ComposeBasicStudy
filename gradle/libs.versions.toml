@@ -11,6 +11,7 @@ composeBom = "2024.04.01"
 coil = "3.1.0"
 navigation = "2.8.7"
 retrofit = "2.9.0"
+pager = "0.20.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -31,6 +32,8 @@ coil-compose = { group = "io.coil-kt.coil3", name = "coil-compose", version.ref 
 navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref="navigation"}
 retrofit = { group =  "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit"}
 retrofit-coverter-gson = { group =  "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit"}
+pager = { group = "com.google.accompanist", name = "accompanist-pager", version.ref = "pager"}
+pager-indicators = { group = "com.google.accompanist", name = "accompanist-pager-indicators", version.ref = "pager"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
