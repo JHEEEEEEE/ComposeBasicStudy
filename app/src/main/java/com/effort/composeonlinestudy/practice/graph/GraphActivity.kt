@@ -52,7 +52,7 @@ fun GraphAppMain() {
 
     Scaffold(
         bottomBar = {
-            BottomAppBar (
+            BottomAppBar(
                 containerColor = Color.Blue,
                 contentColor = Color.White
             ) {
@@ -63,9 +63,10 @@ fun GraphAppMain() {
                     navItems.forEach { nav ->
 
                         //현재 route
-                        val currentRoute = navController.currentBackStackEntryAsState().value?.destination?.route
+                        val currentRoute =
+                            navController.currentBackStackEntryAsState().value?.destination?.route
 
-                        Column (
+                        Column(
                             verticalArrangement = Arrangement.Center,
                             horizontalAlignment = Alignment.CenterHorizontally,
                             modifier = Modifier.clickable {
@@ -74,7 +75,11 @@ fun GraphAppMain() {
                         ) {
                             val isCurrentRoute = nav.route == currentRoute
 
-                            Icon(imageVector = nav.icon , contentDescription = nav.name, tint = if (isCurrentRoute) Color.Red else Color.Black )
+                            Icon(
+                                imageVector = nav.icon,
+                                contentDescription = nav.name,
+                                tint = if (isCurrentRoute) Color.Red else Color.Black
+                            )
                             Text(
                                 text = nav.name,
                                 color = if (isCurrentRoute) Color.Red else Color.Black
