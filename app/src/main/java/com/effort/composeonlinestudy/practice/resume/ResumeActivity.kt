@@ -1,4 +1,4 @@
-package com.effort.composeonlinestudy.resume
+package com.effort.composeonlinestudy.practice.resume
 
 import android.content.Intent
 import android.net.Uri
