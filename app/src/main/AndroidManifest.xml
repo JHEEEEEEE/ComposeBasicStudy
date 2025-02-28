@@ -15,7 +15,7 @@
         android:theme="@style/Theme.ComposeOnlineStudy"
         tools:targetApi="31">
         <activity
-            android:name=".practice.theme.TextStyleActivity"
+            android:name=".practice.theme.ShapeActivity"
             android:exported="true"
             android:theme="@style/Theme.ComposeOnlineStudy">
             <intent-filter>
