@@ -1,4 +1,4 @@
-package com.effort.composeonlinestudy.practice.composexml
+package com.effort.composeonlinestudy.practice.composexml.composetoxml
 
 import android.content.Intent
 import android.os.Bundle

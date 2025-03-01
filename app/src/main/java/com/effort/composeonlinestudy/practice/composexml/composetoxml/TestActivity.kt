@@ -1,10 +1,7 @@
-package com.effort.composeonlinestudy.practice.composexml
+package com.effort.composeonlinestudy.practice.composexml.composetoxml
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.effort.composeonlinestudy.R
 
 class TestActivity : AppCompatActivity() {
