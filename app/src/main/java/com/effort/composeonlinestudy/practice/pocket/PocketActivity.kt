@@ -32,8 +32,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.effort.composeonlinestudy.R
-import com.effort
-    .composeonlinestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composeonlinestudy.ui.theme.ComposeOnlineStudyTheme
 
 class PocketActivity : ComponentActivity() {
 
