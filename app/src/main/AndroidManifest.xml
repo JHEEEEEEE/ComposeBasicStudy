@@ -15,7 +15,7 @@
         android:theme="@style/Theme.ComposeOnlineStudy"
         tools:targetApi="31">
         <activity
-            android:name=".practice.coupang.CoupangActivity"
+            android:name=".practice.pocket.PocketActivity"
             android:exported="true"
             android:theme="@style/Theme.ComposeOnlineStudy">
             <intent-filter>
