@@ -16,7 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 
 // Box : https://foso.github.io/Jetpack-Compose-Playground/layout/box/
 // 적당히 레이아웃 항목을 겹쳐서 내가 원하는 위치에 배치할 수 있음
@@ -26,7 +26,7 @@ class BoxActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ComposeOnlineStudyTheme {
+            ComposeStudyTheme {
                 BoxExample()
             }
         }
@@ -127,7 +127,7 @@ fun BoxExample() {
 @Preview(showBackground = true)
 @Composable
 fun PreviewBoxExample() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         BoxExample()
     }
 }

@@ -11,7 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 
 // LazyColumn : https://developer.android.com/develop/ui/compose/lists?hl=ko
 
@@ -20,7 +20,7 @@ class LazyColumnActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ComposeOnlineStudyTheme {
+            ComposeStudyTheme {
                 MyLazyColumnEx()
             }
         }
@@ -48,7 +48,7 @@ fun MyLazyColumnEx() {
 @Preview
 @Composable
 fun PreviewMyLazyColumnEx() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         MyLazyColumnEx()
     }
 }

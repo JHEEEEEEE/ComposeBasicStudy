@@ -26,7 +26,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 import java.text.SimpleDateFormat
 import java.util.Locale
 
@@ -36,7 +36,7 @@ class CalendarActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            ComposeOnlineStudyTheme {
+            ComposeStudyTheme {
                 CalendarApp()
             }
         }
@@ -173,7 +173,7 @@ fun CalendarDayList(date: MutableState<Calendar>) {
 @Preview(showBackground = true)
 @Composable
 fun PreviewMyCalendar() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         CalendarApp()
 
     }

@@ -15,7 +15,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 
 // Row : Item1 Item2 Item3
 /*
@@ -30,7 +30,7 @@ class RowActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ComposeOnlineStudyTheme {
+            ComposeStudyTheme {
                 RowTestOne()
             }
         }
@@ -67,7 +67,7 @@ fun RowTestOne() {
 @Preview(showBackground = true)
 @Composable
 fun PreviewMyColumn() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         RowTestOne()
     }
 }

@@ -35,7 +35,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 import kotlinx.coroutines.launch
 
 class DrawerActivity : ComponentActivity() {
@@ -44,7 +44,7 @@ class DrawerActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            ComposeOnlineStudyTheme {
+            ComposeStudyTheme {
                 MyDrawer()
             }
         }
@@ -166,7 +166,7 @@ sealed class Screen(val name: String, val icon: ImageVector) {
 @Preview
 @Composable
 fun PreviewDrawer() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         MyDrawer()
     }
 }

@@ -11,7 +11,7 @@ import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 
 @Composable
 fun Graph2() {
@@ -77,7 +77,7 @@ fun PieChart(
 @Preview(showBackground = true)
 @Composable
 fun PreviewGraph2() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         Graph2()
     }
 }

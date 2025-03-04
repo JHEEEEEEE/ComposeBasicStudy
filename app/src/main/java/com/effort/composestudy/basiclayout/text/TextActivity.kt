@@ -16,14 +16,14 @@ import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 
 class TextActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            ComposeOnlineStudyTheme {
+            ComposeStudyTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     MyTextEx(
                         hello = "안녕",
@@ -51,7 +51,7 @@ fun MyTextEx(hello: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun MyTextExPreview() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
             MyTextEx(
                 hello = "안녕",

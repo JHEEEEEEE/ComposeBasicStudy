@@ -15,7 +15,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 
 @Composable
 fun Graph3() {
@@ -72,7 +72,7 @@ fun Bar(barData: Int, maxDataValue: Int) {
 @Preview(showBackground = true)
 @Composable
 fun PreviewGraph3() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         Graph3()
     }
 }

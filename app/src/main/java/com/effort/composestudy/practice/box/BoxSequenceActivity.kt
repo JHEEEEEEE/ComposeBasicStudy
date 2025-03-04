@@ -18,7 +18,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 
 // Box 3개를 사용하여 clip, background, padding 순서에 따라 결과가 어떻게 달라지는지 테스트
 
@@ -26,7 +26,7 @@ class BoxSequenceActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ComposeOnlineStudyTheme {
+            ComposeStudyTheme {
                 MyBoxTest()
             }
         }

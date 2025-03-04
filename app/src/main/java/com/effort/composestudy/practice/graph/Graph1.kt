@@ -17,7 +17,7 @@ import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 
 @Composable
 fun Graph1() {
@@ -82,7 +82,7 @@ fun Graph1Gauge(percent: Float, maxPercent: Float) {
 @Preview(showBackground = true)
 @Composable
 fun PreviewGraph1() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         Graph1()
     }
 }

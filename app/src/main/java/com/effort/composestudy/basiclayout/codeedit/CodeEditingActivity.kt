@@ -10,14 +10,14 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.sp
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 
 class CodeEditingActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ComposeOnlineStudyTheme {
+            ComposeStudyTheme {
                 MyTextAreaThree()
             }
         }
@@ -93,7 +93,7 @@ fun MyTextFormat2(content : @Composable () -> Unit) {
 @Preview(showBackground = true)
 @Composable
 fun PreviewUI() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         MyTextAreaOne()
     }
 }

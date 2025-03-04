@@ -17,7 +17,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 import kotlin.random.Random
 
 class DiceActivity : ComponentActivity() {
@@ -25,7 +25,7 @@ class DiceActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ComposeOnlineStudyTheme {
+            ComposeStudyTheme {
                 MyDice()
             }
         }
@@ -111,7 +111,7 @@ fun DiceFace(number: Int) {
 @Composable
 fun PreviewMyDice() {
 
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         MyDice()
     }
 }

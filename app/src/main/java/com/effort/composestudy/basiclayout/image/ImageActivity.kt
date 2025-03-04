@@ -11,14 +11,14 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import coil3.compose.AsyncImage
 import com.effort.composestudy.R
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 
 class ImageActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ComposeOnlineStudyTheme {
+            ComposeStudyTheme {
                 MyImageTwo()
             }
         }
@@ -45,7 +45,7 @@ fun MyImageTwo() {
 @Preview(showBackground = true)
 @Composable
 fun PreviewMyImage() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         MyImageTwo()
     }
 }

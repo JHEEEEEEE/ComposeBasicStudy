@@ -21,7 +21,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 import java.text.NumberFormat
 
 class TextAnimationActivity : ComponentActivity() {
@@ -30,7 +30,7 @@ class TextAnimationActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            ComposeOnlineStudyTheme {
+            ComposeStudyTheme {
                 TextUp()
             }
         }
@@ -74,7 +74,7 @@ fun TextUp() {
 @Preview(showBackground = true)
 @Composable
 fun PreviewTextUp() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         TextUp()
     }
 }
