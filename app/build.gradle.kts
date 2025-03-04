@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.effort.composeonlinestudy"
+    namespace = "com.effort.composestudy"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.effort.composeonlinestudy"
+        applicationId = "com.effort.composestudy"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
