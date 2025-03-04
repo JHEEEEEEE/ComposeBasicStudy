@@ -22,7 +22,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.effort.composeonlinestudy.graphanimation.barchart.horizontal.BarChart4
 import com.effort.composeonlinestudy.ui.theme.ComposeOnlineStudyTheme
 
 class BarChartOneActivity : ComponentActivity() {
@@ -31,7 +30,7 @@ class BarChartOneActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             ComposeOnlineStudyTheme {
-                BarChart4()
+                BarChart1()
             }
         }
     }
@@ -83,5 +82,5 @@ fun BarChart1() {
 @Preview(showBackground = true)
 @Composable
 fun PreviewBarChart1() {
-    BarChart4()
+    BarChart1()
 }

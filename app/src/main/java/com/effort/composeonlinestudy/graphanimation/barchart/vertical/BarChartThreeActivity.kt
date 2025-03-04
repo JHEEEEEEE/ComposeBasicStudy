@@ -29,7 +29,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.effort.composeonlinestudy.graphanimation.barchart.horizontal.BarChart4
 import com.effort.composeonlinestudy.ui.theme.ComposeOnlineStudyTheme
 import kotlinx.coroutines.delay
 
@@ -39,7 +38,7 @@ class BarChartThreeActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             ComposeOnlineStudyTheme {
-                BarChart4()
+                BarChart3()
             }
         }
     }
@@ -96,7 +95,7 @@ fun BarChart3() {
                                 Color.Black,
                                 shape = RoundedCornerShape(topStart = 15.dp, topEnd = 15.dp)
                             ),
-                    ) { }
+                    )
                 }
             }
         }
@@ -106,5 +105,5 @@ fun BarChart3() {
 @Preview(showBackground = true)
 @Composable
 fun PreviewBarChart3() {
-    BarChart4()
+    BarChart3()
 }
