@@ -1,4 +1,4 @@
-package com.effort.composeonlinestudy.graphanimation.barchart.vertical
+package com.effort.composeonlinestudy.animation.barchart.vertical
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -30,21 +30,22 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.effort.composeonlinestudy.ui.theme.ComposeOnlineStudyTheme
+import kotlinx.coroutines.delay
 
-class BarChartTwoActivity : ComponentActivity() {
+class BarChartThreeActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             ComposeOnlineStudyTheme {
-                BarChart2()
+                BarChart3()
             }
         }
     }
 }
 
 @Composable
-fun BarChart2() {
+fun BarChart3() {
 
     val barDataList: List<Float> = listOf(0.2f, 0.4f, 0.6f, 0.8f, 1f)
     val fullHeight = 600.dp
@@ -62,17 +63,19 @@ fun BarChart2() {
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.Bottom
         ) {
-            barDataList.forEach { barData ->
+            barDataList.forEachIndexed { index, barData ->
 
                 var resultHeight by remember { mutableStateOf(0.dp) }
 
+                // index -> 0 1 2 3 4
                 LaunchedEffect(true) {
+                    delay(1000L * index)
                     resultHeight = fullHeight * barData
                 }
 
                 val animatedHeight by animateDpAsState(
                     targetValue = resultHeight,
-                    animationSpec = tween(durationMillis = 3000, easing = FastOutLinearInEasing),
+                    animationSpec = tween(durationMillis = 1000, easing = FastOutLinearInEasing),
                     label = ""
                 )
 
@@ -92,7 +95,7 @@ fun BarChart2() {
                                 Color.Black,
                                 shape = RoundedCornerShape(topStart = 15.dp, topEnd = 15.dp)
                             ),
-                    ) { }
+                    )
                 }
             }
         }
@@ -101,6 +104,6 @@ fun BarChart2() {
 
 @Preview(showBackground = true)
 @Composable
-fun PreviewBarChart2() {
-    BarChart2()
+fun PreviewBarChart3() {
+    BarChart3()
 }

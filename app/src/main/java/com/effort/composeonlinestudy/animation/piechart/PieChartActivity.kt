@@ -1,4 +1,4 @@
-package com.effort.composeonlinestudy.graphanimation.piechart
+package com.effort.composeonlinestudy.animation.piechart
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

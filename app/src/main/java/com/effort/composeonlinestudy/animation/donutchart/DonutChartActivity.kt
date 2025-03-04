@@ -1,4 +1,4 @@
-package com.effort.composeonlinestudy.graphanimation.donutchart
+package com.effort.composeonlinestudy.animation.donutchart
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -22,7 +22,7 @@ import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.unit.dp
-import com.effort.composeonlinestudy.graphanimation.piechart.ChartModel
+import com.effort.composeonlinestudy.animation.piechart.ChartModel
 import com.effort.composeonlinestudy.ui.theme.ComposeOnlineStudyTheme
 
 class DonutChartActivity : ComponentActivity() {

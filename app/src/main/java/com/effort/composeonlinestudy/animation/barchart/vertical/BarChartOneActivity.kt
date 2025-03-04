@@ -1,4 +1,4 @@
-package com.effort.composeonlinestudy.graphanimation.barchart.vertical
+package com.effort.composeonlinestudy.animation.barchart.vertical
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
