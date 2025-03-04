@@ -16,34 +16,12 @@ val bmFont2 = FontFamily(Font(resId = R.font.bmjua))
 
 // Set of Material typography styles to start with
 val Typography = Typography(
-    titleLarge = TextStyle(
-        fontSize = 30.sp,
-        fontWeight = FontWeight.ExtraBold,
-    ),
-
-    titleMedium = TextStyle(
-        fontSize = 20.sp,
-        fontWeight = FontWeight.Bold,
-    ),
-
-    titleSmall = TextStyle(
-        fontSize = 10.sp,
-        fontWeight = FontWeight.SemiBold,
-    ),
-
     bodyLarge = TextStyle(
-        fontFamily = bmFont1,
+        fontSize = 16.sp,
         fontWeight = FontWeight.Normal,
-        fontSize = 50.sp,
-        lineHeight = 25.sp,
-        letterSpacing = 0.5.sp
     ),
-
-    bodyMedium = TextStyle(
-        fontFamily = bmFont2,
-        fontWeight = FontWeight.Normal,
-        fontSize = 40.sp,
-        lineHeight = 25.sp,
-        letterSpacing = 0.5.sp
+    titleLarge = TextStyle(
+        fontSize = 22.sp,
+        fontWeight = FontWeight.Bold,
     )
 )
