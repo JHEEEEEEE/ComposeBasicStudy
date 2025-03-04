@@ -19,7 +19,7 @@
             android:exported="false"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
-            android:name=".graphanimation.barchart.horizontal.BarChartFiveActivity"
+            android:name=".graphanimation.text.TextAnimationTwoActivity"
             android:exported="true"
             android:theme="@style/Theme.ComposeOnlineStudy">
             <intent-filter>
