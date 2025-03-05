@@ -22,7 +22,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 
 // Card
 
@@ -31,7 +31,7 @@ class CardActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ComposeOnlineStudyTheme {
+            ComposeStudyTheme {
                 Column {
                     CardTest("1")
                     CardTest("2")
@@ -75,7 +75,7 @@ fun CardTest(text : String) {
 @Preview
 @Composable
 fun PreviewCardTest() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         Column {
             CardTest("1")
             CardTest("2")

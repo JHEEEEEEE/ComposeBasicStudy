@@ -32,7 +32,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.effort.composestudy.R
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 
 class PocketActivity : ComponentActivity() {
 
@@ -141,7 +141,7 @@ fun PocketBack() {
 @Preview(showBackground = true)
 @Composable
 fun PreviewPocketCard() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         PocketCard()
     }
 }

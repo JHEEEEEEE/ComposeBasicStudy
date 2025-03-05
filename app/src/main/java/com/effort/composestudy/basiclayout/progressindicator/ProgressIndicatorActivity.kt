@@ -24,7 +24,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 
 class ProgressIndicatorActivity : ComponentActivity() {
 
@@ -32,7 +32,7 @@ class ProgressIndicatorActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            ComposeOnlineStudyTheme {
+            ComposeStudyTheme {
                 MyProgressIndicator()
             }
         }
@@ -81,7 +81,7 @@ fun MyProgressIndicator() {
 @Preview
 @Composable
 fun PreviewProgressIndicator() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         MyProgressIndicator()
     }
 }

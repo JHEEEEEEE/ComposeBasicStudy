@@ -29,14 +29,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 
 class ScaffoldActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ComposeOnlineStudyTheme {
+            ComposeStudyTheme {
                 MyScaffold()
             }
         }
@@ -136,7 +136,7 @@ fun MyBottomBar() {
 @Preview(showBackground = true)
 @Composable
 fun PreviewMyScaffold() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         MyScaffold()
     }
 }

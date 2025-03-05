@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 
 class DarkLightThemeActivity : ComponentActivity() {
 
@@ -26,7 +26,7 @@ class DarkLightThemeActivity : ComponentActivity() {
 
 @Composable
 fun ThemeTest1() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         Surface(
             modifier = Modifier.fillMaxSize(),
             color = MaterialTheme.colorScheme.background

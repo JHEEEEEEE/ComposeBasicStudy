@@ -24,7 +24,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 
 class GraphActivity : ComponentActivity() {
 
@@ -32,7 +32,7 @@ class GraphActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            ComposeOnlineStudyTheme {
+            ComposeStudyTheme {
                 GraphAppMain()
             }
         }
@@ -112,7 +112,7 @@ fun GraphAppMain() {
 @Preview
 @Composable
 fun PreviewGraph() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         GraphAppMain()
     }
 }

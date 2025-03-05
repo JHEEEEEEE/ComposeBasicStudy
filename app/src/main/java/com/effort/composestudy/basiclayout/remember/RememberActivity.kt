@@ -14,14 +14,14 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 
 class RememberActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ComposeOnlineStudyTheme {
+            ComposeStudyTheme {
                 SimpleCounterBtn()
             }
         }
@@ -49,7 +49,7 @@ fun SimpleCounterBtn() {
 @Preview(showBackground = true)
 @Composable
 fun PreviewSimpleCounterBtn() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         SimpleCounterBtn()
     }
 }

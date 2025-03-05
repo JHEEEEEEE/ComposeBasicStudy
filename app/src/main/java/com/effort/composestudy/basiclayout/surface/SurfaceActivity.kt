@@ -24,7 +24,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 
 // Surface
 // 컨텐츠를 담아놓는 컨테이너
@@ -35,7 +35,7 @@ class SurfaceActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ComposeOnlineStudyTheme {
+            ComposeStudyTheme {
                 MySurfaceTwo()
             }
         }
@@ -108,7 +108,7 @@ fun MySurfaceTwo() {
 @Preview(showBackground = true)
 @Composable
 fun PreviewWebView() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         MySurfaceTwo()
     }
 }

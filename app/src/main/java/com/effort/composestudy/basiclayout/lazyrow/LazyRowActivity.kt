@@ -14,13 +14,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.effort.composestudy.ui.theme.ComposeOnlineStudyTheme
+import com.effort.composestudy.ui.theme.ComposeStudyTheme
 
 class LazyRowActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ComposeOnlineStudyTheme {
+            ComposeStudyTheme {
                 MyLazyRowEx()
             }
         }
@@ -91,7 +91,7 @@ fun MyLazyRowEx() {
 @Preview
 @Composable
 fun PreviewMyLazyRowEx() {
-    ComposeOnlineStudyTheme {
+    ComposeStudyTheme {
         MyLazyRowEx()
     }
 }
